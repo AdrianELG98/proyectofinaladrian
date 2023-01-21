@@ -2,7 +2,7 @@ import cv2 as cv
 import numpy as np
 from matplotlib import pyplot as plt
 from flask import Flask
-app = Flask(_name_)
+app = Flask(__name__)
 
 @app.route("/")
 def main():
