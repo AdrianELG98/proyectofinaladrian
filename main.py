@@ -26,4 +26,4 @@ def main():
       plt.xticks([]),plt.yticks([])
 
    plt.show()
-return img
+   return img
